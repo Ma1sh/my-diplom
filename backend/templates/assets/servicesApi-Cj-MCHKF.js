@@ -1,0 +1,1 @@
+import{C as e}from"./index-CsZ2hEwd.js";const t={getCategories(){return e.get("/categories/")},getServices(r={}){return e.get("/services/",{params:r})},getService(r){return e.get(`/services/${r}/`)},getPopularServices(){return e.get("/services/",{params:{is_popular:!0}})}};export{t as s};

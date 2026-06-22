@@ -1,0 +1,1 @@
+import{C as e}from"./index-CsZ2hEwd.js";const o={getOrders(r={}){return e.get("/orders/",{params:r})},getOrder(r){return e.get(`/orders/${r}/`)},createOrder(r){return e.post("/orders/",r)},updateOrder(r,t){return e.patch(`/orders/${r}/`,t)},deleteOrder(r){return e.delete(`/orders/${r}/`)}};export{o};
