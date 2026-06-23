@@ -4,7 +4,7 @@ import { useToast } from 'vue-toastification'
 const toast = useToast()
 
 const api = axios.create({
-  baseURL: '/api',
+  baseURL: 'https://my-diplom-aes9.onrender.com',
   headers: {
     'Content-Type': 'application/json'
   }
